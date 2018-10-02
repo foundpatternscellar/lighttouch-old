@@ -1,0 +1,5 @@
+imports:
+  torchbear_ext: torchbear-ext/
+  
+git module torchbear_ext:
+  url: https://gitlab.com/polytopes/torchbear-ext.git

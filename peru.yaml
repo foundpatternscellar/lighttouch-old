@@ -1,5 +1,9 @@
 imports:
   torchbear_ext: torchbear-ext/
+  hello_world_package: packages/hello-world
   
 git module torchbear_ext:
   url: https://gitlab.com/polytopes/torchbear-ext.git
+  
+git module hello_world_package:
+  url: https://gitlab.com/polytopes/hello-world-package.git

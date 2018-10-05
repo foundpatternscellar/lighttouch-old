@@ -1,3 +1,5 @@
+# All the configuration fields are set with their default value
+
 #[web-server]  # implies that lua_bindings/web_server.rs should be used
 host = "0.0.0.0:3000"
 

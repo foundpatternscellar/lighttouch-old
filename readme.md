@@ -1,6 +1,6 @@
 # LightTouch
 
-Web Framework built on [TorchBear](https://gitlab.com/foundpatterns/torchbear)
+Web Framework built on [TorchBear](https://github.com/foundpatterns/torchbear)
 
 Install [peru](https://github.com/buildinspace/peru) and run `peru sync` to set up the dependencies, and then run `torchbear` to start this application, you can also run `torchbear <app-directory>` from any other directory.
 

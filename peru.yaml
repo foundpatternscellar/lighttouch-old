@@ -4,10 +4,10 @@ imports:
   lighttouch-logging: packages/lighttouch-logging
   
 git module lighttouch-libs:
-  url: https://gitlab.com/foundpatterns/lighttouch-lualibs.git
+  url: https://github.com/foundpatterns/lighttouch-libs.git
   
 git module hello_world:
-  url: https://gitlab.com/foundpatterns/hello-world.git
+  url: https://github.com/foundpatterns/hello-world.git
 
 git module lighttouch-logging:
   url: https://github.com/foundpatterns/lighttouch-logging.git

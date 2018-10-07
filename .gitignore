@@ -1,5 +1,8 @@
 .peru
-/log/
-
 /torchbear-ext/
-/packages/hello-world/
+/lighttouch-libs/
+/packages/
+/content/
+/log/
+/tmp-lua/
+/tmp-theme/

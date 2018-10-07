@@ -1,9 +1,13 @@
 imports:
-  torchbear_ext: torchbear-ext/
-  hello_world_package: packages/hello-world
+  lighttouch-libs: lighttouch-libs/
+  hello_world: packages/hello-world
+  lighttouch-logging: packages/lighttouch-logging
   
-git module torchbear_ext:
-  url: https://gitlab.com/polytopes/torchbear-ext.git
+git module lighttouch-libs:
+  url: https://gitlab.com/foundpatterns/lighttouch-lualibs.git
   
-git module hello_world_package:
-  url: https://gitlab.com/polytopes/hello-world-package.git
+git module hello_world:
+  url: https://gitlab.com/foundpatterns/hello-world.git
+
+git module lighttouch-logging:
+  url: https://github.com/foundpatterns/lighttouch-logging.git

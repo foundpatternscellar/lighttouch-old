@@ -3,6 +3,7 @@
 /lighttouch-libs/
 /packages/
 /content/
-/log/
+/log/*
+/logs/*
 /tmp-lua/
 /tmp-theme/

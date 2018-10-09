@@ -2,6 +2,7 @@ imports:
   lighttouch-libs: lighttouch-libs/
   lighttouch-api: packages/lighttouch-api
   lighttouch-logging: packages/lighttouch-logging
+  lighttouch-keys: packages/lighttouch-keys
   
 git module lighttouch-libs:
   url: https://github.com/foundpatterns/lighttouch-libs.git
@@ -11,3 +12,6 @@ git module lighttouch-api:
 
 git module lighttouch-logging:
   url: https://github.com/foundpatterns/lighttouch-logging.git
+
+git module lighttouch-keys:
+  url: https://github.com/foundpatterns/lighttouch-keys.git

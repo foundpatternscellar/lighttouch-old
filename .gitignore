@@ -2,8 +2,14 @@
 /torchbear-ext/
 /lighttouch-libs/
 /packages/
-/content/
 /log/*
 /logs/*
 /tmp-lua/
 /tmp-theme/
+
+/content/*
+!/content/home/
+!/content/d3562615-c6c9-4a41-8fb9-f39117ed55cd/
+
+/content/home/*
+!/content/home/1cbcba6c-8167-4fc5-8bea-43b1298ddd27

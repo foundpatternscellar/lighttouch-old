@@ -18,4 +18,4 @@ templates_path = "templates/**/*"  # expected by lib.rs
 
 # package related settings - paths for stuff
 content = "content"
-log = "log"
+log_path = "log/torchbear"

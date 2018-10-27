@@ -1,9 +1,7 @@
 .peru
-/torchbear-ext/
-/lighttouch-libs/
+/lighttouch-base/
 /packages/
 /log/*
-/logs/*
 /tmp-lua/
 /tmp-theme/
 

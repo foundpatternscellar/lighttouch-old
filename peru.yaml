@@ -1,17 +1,21 @@
 imports:
   lighttouch-base: lighttouch-base/
-  lighttouch-json-interface: packages/lighttouch-json-interface
   lighttouch-logging: packages/lighttouch-logging
   lighttouch-keys: packages/lighttouch-keys
+  lighttouch-json-interface: packages/lighttouch-json-interface
+  lighttouch-html-interface: packages/lighttouch-html-interface
   
 git module lighttouch-base:
   url: https://github.com/foundpatterns/lighttouch-base.git
-  
-git module lighttouch-json-interface:
-  url: https://github.com/foundpatterns/lighttouch-json-interface.git
 
 git module lighttouch-logging:
   url: https://github.com/foundpatterns/lighttouch-logging.git
 
 git module lighttouch-keys:
   url: https://github.com/foundpatterns/lighttouch-keys.git
+  
+git module lighttouch-json-interface:
+  url: https://github.com/foundpatterns/lighttouch-json-interface.git
+  
+git module lighttouch-html-interface:
+  url: https://github.com/foundpatterns/lighttouch-html-interface.git

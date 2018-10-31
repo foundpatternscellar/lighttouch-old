@@ -8,7 +8,13 @@
 
 <h1>{{ model | capitalize }}</h1>
 
-{{documents}}
+<ul>
+  {% for id in documents %}
+    <li>
+      <a href="{{model}}/{{id}}">{{id}}</a>
+    </li>
+  {% endfor %}
+</ul>
 
 </body>
 </html>

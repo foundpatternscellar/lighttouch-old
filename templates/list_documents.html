@@ -8,6 +8,7 @@
 
 <h1>{{ model | capitalize }}</h1>
 
+{% if documents %}
 <ul>
   {% for id in documents %}
     <li>
@@ -15,6 +16,9 @@
     </li>
   {% endfor %}
 </ul>
+{% else %}
+No documents
+{% endif %}
 
 </body>
 </html>

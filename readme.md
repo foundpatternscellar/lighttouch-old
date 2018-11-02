@@ -4,7 +4,7 @@ Web Framework built on [TorchBear](https://github.com/foundpatterns/torchbear)
 
 # Installation
 
-Install [peru](https://github.com/buildinspace/peru) and run `peru sync` to set up the dependencies, and then run `torchbear` to start this application, you can also run `torchbear <app-directory>` from any other directory.
+Install [peru](https://github.com/buildinspace/peru) package manager and run `peru sync` to set up the dependencies, and then run `torchbear` to start this application, you can also run `torchbear <app-directory>` from any other directory.
 
 - run `peru sync`
 - create a `tmp-lua` directory

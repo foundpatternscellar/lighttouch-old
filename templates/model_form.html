@@ -6,13 +6,17 @@
 </head>
 <body>
   <h1>New {{ model_name | capitalize }}</h1>
-  <form method="POST" action="/{{model_name}}">
+  <form method="POST" action="/">
+    <input type="hidden" name="model" value="{{model_name}}">
     {% for name, field_def in model.fields %}
       <div>
         <label for="{{name}}">{{ name | capitalize }}</label>
-        <input type="string" name="{{name}}" id="{{name}}"></form>
+        <input type="string" name="fields.{{name}}" id="{{name}}">
       </div>
     {% endfor %}
+    <div>
+      <textarea name="body"></textarea>
+    </div>
     <button type="submit">Create {{model_name}}</button>
   </form>
 </body>

@@ -10,9 +10,9 @@
 
 {% if documents %}
 <ul>
-  {% for id in documents %}
+  {% for entry in documents %}
     <li>
-      <a href="{{model}}/{{id}}">{{id}}</a>
+      {{entry.profile}} <a href="{{model}}/{{entry.file}}">{{entry.file}}</a>
     </li>
   {% endfor %}
 </ul>

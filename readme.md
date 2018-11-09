@@ -1,6 +1,6 @@
-# LightTouch
+# lighttouch
 
-Web Framework built on [TorchBear](https://github.com/foundpatterns/torchbear)
+Web Framework built on [torchbear](https://github.com/foundpatterns/torchbear)
 
 # Installation
 

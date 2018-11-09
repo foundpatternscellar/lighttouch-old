@@ -10,11 +10,8 @@ ext_header_ids = 1
 strict = 1 # https://github.com/chyh1990/yaml-rust/issues/102
 
 # ?
-lua_prelude = "lighttouch-base/"
+init = "lighttouch-base/init.lua"
 templates_path = "templates/**/*"  # expected by lib.rs
-
-# package builder bootstrapping phase
-#application = "./"  # loads packages 
 
 # package related settings - paths for stuff
 content = "content"

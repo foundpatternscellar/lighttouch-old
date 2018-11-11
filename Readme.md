@@ -34,4 +34,4 @@ Once these are installed, clone the repo with git, run `peru sync` to install it
 
 ### Developing
 
-To modify any functionality in lighttouch, create a git repo outside of it, and add an override in `peru.yaml` so that it will use that source directory.  For example, to modify `lightouch-base`, clone it somewhere else, then run `peru override add lighttouch-base {{ path to lighttouch-base repo }}`.  Then, after making changes to the source, run `peru sync`.
+To modify any functionality in lighttouch, create a git repo outside of it for the component your are modifying, and add an override in `peru.yaml` so that it will use that source directory.  For example, to modify `lightouch-base`, clone it somewhere else, then run `peru override add lighttouch-base {{ path to lighttouch-base repo }}`.  Then, after making each change to the source, run `peru sync` to update your lighttouch.

@@ -8,18 +8,15 @@
 
 <h1>{{ model | capitalize }} {{ id }}</h1>
 
-<div>
-  <strong>Store:</strong> {{ store }}
-</div>
+<strong>Store:</strong> {{ store }} <br>
+
+<a href="/?witness={{ id }}">Witness</a> <br>
 
 <h3>Fields</h3>
-<div>
-  {% for key, value in fields %}
-    <div>
-      <strong>{{ key | safe }}:</strong> {{ value | safe }}
-    </div>
-  {% endfor %}
-</div>
+{% for key, value in fields %}
+  <strong>{{ key | safe }}:</strong> {{ value | safe }}
+  <br>
+{% endfor %}
 
 <h3>Body</h3>
 <div id="content" class="container"><pre>{{ body | safe }}</pre></div>

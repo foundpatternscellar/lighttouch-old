@@ -1,0 +1,17 @@
+description: Witness of a file
+fields:
+  signatue:
+    type: string
+    required: true
+  profile:
+    type: string
+    required: true
+  document:
+    type: string
+    required: true
+  document_model:
+    type: string
+    required: true
+  date:
+    type: string
+    required: true

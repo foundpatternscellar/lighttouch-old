@@ -7,9 +7,9 @@
   <a href="https://discord.gg/sWCQxT"><img src="https://img.shields.io/badge/chat-on%20discord-7289da.svg" alt="Chat"></a>
 </p>
 
-lighttouch 🌬️ is a framework that makes complex application development simpler.  It does this through broad use of [component-oriented design](https://en.wikipedia.org/wiki/Component-based_software_engineering) intended to offer programmers a well-researched alternative to starting with a blank canvas to "put your code anywhere".  [Code organized](https://en.wikipedia.org/wiki/Structured_programming) this way raises the limits of implementation reusability and cross-pollenation of diverse applications.  Without this applications tend to get walled into handling only a single use case or grow while having trouble from too many layers of abstraction. 
+Lighttouch 🌬️ is a framework that makes complex application development simpler.  It does this through broad use of [component-oriented design](https://en.wikipedia.org/wiki/Component-based_software_engineering) intended to offer programmers a well-researched alternative to starting with a blank canvas to "put your code anywhere".  [Code organized](https://en.wikipedia.org/wiki/Structured_programming) this way raises the limits of implementation reusability and cross-pollenation of diverse applications.  Without this applications tend to get walled into handling only a single use case or grow while having trouble from too many layers of abstraction. 
 
-### lighttouch Packages
+### Lighttouch Packages
 
 Packages are the main unit of addon functionality. They leverage [event-driven](https://en.wikipedia.org/wiki/Event-driven_programming), [rule-based](https://en.wikipedia.org/wiki/Rule-based_system) programming.  This means packages consist of actions, events, and rules.  Events are like [hooks](https://stackoverflow.com/questions/467557/what-is-meant-by-the-term-hook-in-programming) where additional logic can run.  Rules check conditions and trigger events, while passing along data.  Actions are the individual mechanisms of additional functionality that have a distilled purpose and can run on any associated event.
 
@@ -21,11 +21,11 @@ Actions are individual, dynamic functions that can run where they are needed.  Y
 
 ### Core Modules
 
-lighttouch also provides modules for content management (thus far, targeting file-based, document-oriented databases), robust logging for web applications, syntax sugar, and more.  These core modules + the loaders mentioned for packages + and the init script make up [lighttouch base](https://github.com/foundpatterns/lighttouch-base).
+Lighttouch also provides modules for content management (thus far, targeting file-based, document-oriented databases), robust logging for web applications, syntax sugar, and more.  These core modules + loaders mentioned for packages + and init script make up [Lighttouch Base](https://github.com/foundpatterns/lighttouch-base).
 
 ### Installation
 
-lightouch has 3 dependencies:
+Lightouch has 3 dependencies:
 * **[git](https://git-scm.com)** [version control manager](https://en.wikipedia.org/wiki/Version_control)
 * **[peru](https://github.com/buildinspace/peru)** [package manager](https://en.wikipedia.org/wiki/Package_manager)
 * **[torchbear](https://github.com/foundpatterns/torchbear)** [application framework](https://stackoverflow.com/questions/4241919/what-is-meant-by-application-framework)
@@ -34,4 +34,4 @@ Once these are installed, clone the repo with git, run `peru sync` to install it
 
 ### Developing
 
-To modify any functionality in lighttouch, create a git repo outside of it for the component your are modifying, and add an override in `peru.yaml` so that it will use that source directory.  For example, to modify `lightouch-base`, clone it somewhere else, then run `peru override add lighttouch-base {{ path to lighttouch-base repo }}`.  Then, after making each change to the source, run `peru sync` to update your lighttouch.
+To modify any functionality in Lighttouch, create a git repo outside of it for the component your are modifying, and add an override in `peru.yaml` so that it will use that source directory.  For example, to modify `lightouch-base`, clone it somewhere else, then run `peru override add lighttouch-base {{ path to lighttouch-base repo }}`.  Then, after making each change to the source, run `peru sync` to update your Lighttouch.

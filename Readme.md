@@ -7,23 +7,46 @@
   <a href="https://discord.gg/sWCQxT"><img src="https://img.shields.io/badge/chat-on%20discord-7289da.svg" alt="Chat"></a>
 </p>
 
-Lighttouch is a framework that makes complex application development simpler.  It does this through broad use of [component-oriented design](https://en.wikipedia.org/wiki/Component-based_software_engineering) intended to offer programmers a well-researched alternative to starting with a blank canvas - "put your code anywhere".  [Code organized](https://en.wikipedia.org/wiki/Structured_programming) this way raises the limits of implementation reusability and cross-pollenation of diverse applications.  Without this applications tend to get walled into handling only a single use case or grow while having trouble from too many layers of abstraction. 
+Lighttouch is a framework that makes complex application development simpler.  It does this through broad use of [component-oriented design](https://en.wikipedia.org/wiki/Component-based_software_engineering) intended to offer programmers a well-researched alternative to starting with a blank canvas - "put your code anywhere".
+
+[Code organized](https://en.wikipedia.org/wiki/Structured_programming) this way is:
+- easier to use (to program)
+- possible to use as a base for [visual programming environments](https://en.wikipedia.org/wiki/Visual_programming_language) 
+- unlimited in its reusability of implementations
+- easier to extend with other developers' plugins
+- possible to socially cross-pollenate diverse and complex applications
+
+Without this, applications tend to:
+- get walled into handling only a single use case
+- grow, but at huge cost and pain while extending
+- suffer too many layers of abstraction
+- repetively make novice mistakes, like [spaghetti code](http://wiki.c2.com/?SpaghettiCode) and [code duplication](http://wiki.c2.com/?DuplicatedCode)
 
 ### Lighttouch Packages
 
-Packages are the main unit of addon functionality. They leverage [event-driven](https://en.wikipedia.org/wiki/Event-driven_programming), [rule-based](https://en.wikipedia.org/wiki/Rule-based_system) programming.  This means packages consist of actions, events, and rules.  Events are like [hooks](https://stackoverflow.com/questions/467557/what-is-meant-by-the-term-hook-in-programming) where additional logic can run.  Rules check a conditional statement of any complexity and trigger events.  When an event triggers, its actions run in weight order.  Actions are the individual mechanisms of additional functionality that have a distilled purpose and can run on any associated event.
+Packages are Lighttouch's main unit of addon functionality. They leverage [event-driven](https://en.wikipedia.org/wiki/Event-driven_programming), [rule-based](https://en.wikipedia.org/wiki/Rule-based_system) programming.  This fundamentally means that packages have actions, events, and rules.  Events are like [hooks](https://stackoverflow.com/questions/467557/what-is-meant-by-the-term-hook-in-programming) where additional logic can run.  Rules check a conditional statement of any complexity and trigger events.  When an event triggers, its actions run in weight order.  Actions are the individual mechanisms of additional functionality that have a distilled purpose and can run on any associated event.
 
-80% of this functionality builds on top of [Luvent: A Simple Event Library for Lua](https://github.com/ejmr/Luvent).  You could probably get away with the summary below of Lighttouch's use, but it's still worth checking out.  It has a great Readme.  The basic difference between what Luvent does and what Lighttouch does is that while writing a Lighttouch app, you put that functionality into individual files, and Lighttouch sets everything up for you.
+80% of this functionality builds on top of [Luvent: A Simple Event Library for Lua](https://github.com/ejmr/Luvent).  You could probably get away with the summary below of Lighttouch's use of its API, but it's still worth checking out.  It has a great Readme.  The basic difference between what Luvent does and what Lighttouch does is that while writing a Lighttouch app, you put functionality into individual files, and Lighttouch sets everything up for you.
 
-Events are very simple.  They get loaded into a global list by reading each package's `events.txt` file.  They can be disabled in a `disabled_events.txt` file.  Potential improvements include a simpler interface and ordering execution by weight.
+Events are very simple.  They get loaded into a global list by reading each package's `events.txt` file.  They can be disabled in a `disabled_events.txt` file.  (aside: Potential improvements include a simpler interface and ordering execution by weight.)
 
 Rules are basically an `IF` statement with some metadata.  If the configured conditions, specified in the body of a rule as Lua code are `TRUE`, then the specified events will trigger and the objects specified in the input parameters will get passed to the attached actions.
 
-Actions are individual, dynamic functions that can run where they are needed.  You simply code what you want to do, and leave the parts about when it will run and in what order to the other logic connected through the yaml header.  Actions should not have conditions in them.
+Actions are individual, [lazy loaded functions](https://whatis.techtarget.com/definition/lazy-loading-dynamic-function-loading) that can run where they are needed.  You simply code what you want to do, and leave the parts about when it will run and in what order to the other logic connected through the yaml header.  Actions should not have conditions in them.
 
-### Core Modules
+### Core Modules (including third-party)
 
-Lighttouch also provides modules for content management (thus far, targeting file-based, document-oriented databases), robust logging for web applications, syntax sugar, and more.  These core modules + loaders mentioned for packages + and init script make up [Lighttouch Base](https://github.com/foundpatterns/lighttouch-base).
+Lighttouch also provides modules for content management, robust logging, syntax sugar, and more.  These core modules + loaders mentioned for packages + and init script make up [Lighttouch Base](https://github.com/foundpatterns/lighttouch-base), which has:
+- Packaged ECA-Rules Loaders: described above
+- Content Module: file-based, document-oriented databases (see Grav) with data models in YAML, similar to JSON Schema (content types), and validation
+- Logging: automatically setup out of the box (set log level in `config.toml`, default is `INFO`)
+
+### Packages
+
+- Lighttouch Web Logging:  (for web automation) log every incoming request, outgoing response, outgoing request, and incoming response (server and client logging out of the box.. makes debugging web applications much easier) to log directory (log entries are content, btw)
+- Lighttouch JSON Interface: REST API built on content module
+- Lighttouch HTTP Interface: form-driven content entry mechanism, username:password protected (autogenerated at each initialization)
+- Lighttouch Crypto Tools: setup a profile with cryptographic signing keys for yourself and friends to verify incoming responses and requests, and sign outgoing requests and responses
 
 ### Installation
 

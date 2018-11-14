@@ -40,6 +40,7 @@ Lighttouch also provides modules for content management, robust logging, syntax 
 - Packaged ECA-Rules Loaders: described above
 - Content Module: file-based, document-oriented databases (see Grav) with data models in YAML, similar to JSON Schema (content types), and validation
 - Logging: automatically setup out of the box (set log level in `config.toml`, default is `INFO`)
+- ...
 
 ### Packages
 

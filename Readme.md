@@ -7,7 +7,7 @@
   <a href="https://discord.gg/sWCQxT"><img src="https://img.shields.io/badge/chat-on%20discord-7289da.svg" alt="Chat"></a>
 </p>
 
-Lighttouch is a framework that makes complex application development simpler.  It does this through broad use of [component-oriented design](https://en.wikipedia.org/wiki/Component-based_software_engineering) intended to offer programmers a well-researched alternative to starting with a blank canvas to "put your code anywhere".  [Code organized](https://en.wikipedia.org/wiki/Structured_programming) this way raises the limits of implementation reusability and cross-pollenation of diverse applications.  Without this applications tend to get walled into handling only a single use case or grow while having trouble from too many layers of abstraction. 
+Lighttouch is a framework that makes complex application development simpler.  It does this through broad use of [component-oriented design](https://en.wikipedia.org/wiki/Component-based_software_engineering) intended to offer programmers a well-researched alternative to starting with a blank canvas - "put your code anywhere".  [Code organized](https://en.wikipedia.org/wiki/Structured_programming) this way raises the limits of implementation reusability and cross-pollenation of diverse applications.  Without this applications tend to get walled into handling only a single use case or grow while having trouble from too many layers of abstraction. 
 
 ### Lighttouch Packages
 

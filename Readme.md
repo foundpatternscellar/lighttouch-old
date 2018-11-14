@@ -11,7 +11,9 @@ Lighttouch is a framework that makes complex application development simpler.  I
 
 ### Lighttouch Packages
 
-Packages are the main unit of addon functionality. They leverage [event-driven](https://en.wikipedia.org/wiki/Event-driven_programming), [rule-based](https://en.wikipedia.org/wiki/Rule-based_system) programming.  This means packages consist of actions, events, and rules.  Events are like [hooks](https://stackoverflow.com/questions/467557/what-is-meant-by-the-term-hook-in-programming) where additional logic can run.  Rules check conditions and trigger events, while passing along data.  Actions are the individual mechanisms of additional functionality that have a distilled purpose and can run on any associated event.
+Packages are the main unit of addon functionality. They leverage [event-driven](https://en.wikipedia.org/wiki/Event-driven_programming), [rule-based](https://en.wikipedia.org/wiki/Rule-based_system) programming.  This means packages consist of actions, events, and rules.  Events are like [hooks](https://stackoverflow.com/questions/467557/what-is-meant-by-the-term-hook-in-programming) where additional logic can run.  Rules check a conditional statement of any complexity and trigger events.  When an event triggers, its actions run in weight order.  Actions are the individual mechanisms of additional functionality that have a distilled purpose and can run on any associated event.
+
+80% of this functionality builds on top of [Luvent: A Simple Event Library for Lua](https://github.com/ejmr/Luvent).  You could probably get away with the summary below of Lighttouch's use, but it's still worth checking out.  It has a great Readme.  The basic difference between what Luvent does and what Lighttouch does is that while writing a Lighttouch app, you put that functionality into individual files, and Lighttouch sets everything up for you.
 
 Events are very simple.  They get loaded into a global list by reading each package's `events.txt` file.  They can be disabled in a `disabled_events.txt` file.  Potential improvements include a simpler interface and ordering execution by weight.
 

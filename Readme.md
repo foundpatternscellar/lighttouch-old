@@ -19,8 +19,8 @@ Lighttouch is a framework that makes complex application development simpler.  I
 Without this, applications tend to:
 - get walled into handling only a single use case
 - grow, but at huge cost and pain while extending
-- suffer too many layers of abstraction
 - repetively make novice mistakes, like [spaghetti code](http://wiki.c2.com/?SpaghettiCode) and [code duplication](http://wiki.c2.com/?DuplicatedCode)
+- suffer too many layers of abstraction
 
 ### Lighttouch Packages
 

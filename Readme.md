@@ -19,8 +19,12 @@ Lighttouch is a framework that makes complex application development simpler.  I
 Without this, applications tend to:
 - get walled into handling only a single use case
 - grow, but at huge cost and pain while extending
-- repetively make [messy mistakes](https://news.ycombinator.com/item?id=18443327), like [spaghetti code](http://wiki.c2.com/?SpaghettiCode) and [code duplication](http://wiki.c2.com/?DuplicatedCode)
+- repetively [make messy mistakes](https://news.ycombinator.com/item?id=18443327), like [spaghetti code](http://wiki.c2.com/?SpaghettiCode) and [code duplication](http://wiki.c2.com/?DuplicatedCode)
 - suffer too many layers of abstraction
+
+Below you'll learn what is ECA-Rules, but to begin let's start with a simple diagram from the [Drupal Rules module](https://drupal.org/project/rules), a project which greatly influenced this one.
+
+<img src="https://dev.acquia.com/sites/default/files/blog/rules_eca.png" alt="ECA-Rules diagram">
 
 ### Lighttouch Packages
 

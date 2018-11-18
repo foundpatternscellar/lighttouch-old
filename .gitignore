@@ -4,6 +4,7 @@
 /log/*
 /tmp-lua/
 /tmp-theme/
+/tantivy-index/
 
 /content/*
 !/content/home/

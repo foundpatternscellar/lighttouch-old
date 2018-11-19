@@ -3,7 +3,7 @@
 /packages/
 /log/*
 /tmp-lua/
-/tmp-theme/
+/temp-theme/
 /tantivy-index/
 
 /content/*

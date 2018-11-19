@@ -12,7 +12,8 @@ strict = 1 # https://github.com/chyh1990/yaml-rust/issues/102
 # ?
 init = "lighttouch-base/init.lua"
 templates_path = "templates/**/*"  # expected by lib.rs
-
+theme = "theme2"
+models_path = "packages/models"
 # package related settings - paths for stuff
 content = "content"
 log_path = "log/torchbear"

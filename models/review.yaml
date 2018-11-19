@@ -1,6 +1,0 @@
-description: Ratings of a profile
-fields:
-  profile:
-    type: string
-  rating:
-    type: number

@@ -1,18 +1,31 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
-    <title>{{ model | capitalize }}</title>
+    <title>{{ title }}</title>
+    <style type="text/css">
+      .alt-name {
+        font-size: 75%;
+        color: gray;
+      }
+    </style>
 </head>
 <body>
 
-<h1>{{ model | capitalize }}</h1>
+<h1>{{ title }}</h1>
 
 {% if documents %}
 <ul>
   {% for entry in documents %}
     <li>
-      {{entry.profile}} <a href="/{{model}}/{{entry.file}}">{{entry.file}}</a>
+      {% set url = "/" ~ model ~ "/" ~ entry.uuid %}
+      {% if entry.name %}
+        <a href="{{url}}">{{entry.name}}</a>
+        <span class="alt-name">{{entry.store}} : {{entry.uuid}}</span>
+      {% else %}
+        {{entry.store}} : <a href="{{url}}">{{entry.uuid}}</a>
+      {% endif %}
     </li>
   {% endfor %}
 </ul>

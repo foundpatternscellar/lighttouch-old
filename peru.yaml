@@ -5,6 +5,7 @@ imports:
   lighttouch-json-interface: packages/lighttouch-json-interface
   lighttouch-html-interface: packages/lighttouch-html-interface
   jadeseal-foundpatterns: packages/jadeseal-foundpatterns
+  test-themes: packages/themes/test-themes
   
 git module lighttouch-base:
   url: https://github.com/foundpatterns/lighttouch-base.git
@@ -24,3 +25,6 @@ git module lighttouch-html-interface:
   
 git module jadeseal-foundpatterns:
   url: https://github.com/foundpatterns/jadeseal-foundpatterns.git
+  
+git module test-themes:
+  url: https://github.com/mitchtbaum/test-themes

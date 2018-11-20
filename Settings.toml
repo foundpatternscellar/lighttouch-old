@@ -11,7 +11,7 @@ strict = 1 # https://github.com/chyh1990/yaml-rust/issues/102
 
 # ?
 init = "lighttouch-base/init.lua"
-theme = "test-themes/theme2"
+theme = "base-theme"
 templates_path = "templates/**/*"  # expected by lib.rs
 
 # package related settings - paths for stuff
@@ -19,4 +19,4 @@ content = "content"
 log_path = "log/torchbear"
 
 # Can be error, warn, info, debug or trace
-log_level = "info"
+log_level = "trace"

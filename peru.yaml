@@ -5,37 +5,30 @@ imports:
   lighttouch-json-interface: packages/lighttouch-json-interface
   lighttouch-html-interface: packages/lighttouch-html-interface
   jadeseal-foundpatterns: packages/jadeseal-foundpatterns
-  homepage: packages/homepage
-  base-theme: packages/themes/base-theme
+  homepage-package: packages/homepage-package
+  base-theme: themes/base-theme
   
 git module lighttouch-base:
   url: https://github.com/foundpatterns/lighttouch-base.git
   recursive: true
-  rev: 53ec18fc3443e062ab15641dbf4fcf68c73b8b4b
 
 git module lighttouch-logging:
   url: https://github.com/foundpatterns/lighttouch-logging.git
-  rev: 6c123b5ef42ac049ac611ee5f60d5f4629b1af65
 
 git module lighttouch-keys:
   url: https://github.com/foundpatterns/lighttouch-keys.git
-  rev: 1f0731a4cf8fc030c7f63ca5d63f6eaf9e9b6bc1
   
 git module lighttouch-json-interface:
   url: https://github.com/foundpatterns/lighttouch-json-interface.git
-  rev: 559ad0faf04f480fa2cbc98c0dc211582df3f368
   
 git module lighttouch-html-interface:
   url: https://github.com/foundpatterns/lighttouch-html-interface.git
-  rev: 7f0944f41f35763e0bfb95b4cc746c46cab347a4
   
 git module jadeseal-foundpatterns:
   url: https://github.com/foundpatterns/jadeseal-foundpatterns.git
-  rev: be02ee37691c802cab8a0ca1b3c33315ae669527
   
 git module base-theme:
   url: https://github.com/foundpatterns/base-theme
   
-git module homepage:
+git module homepage-package:
   url: https://github.com/foundpatterns/homepage-package
-  rev: 7df07c05127d004eea53bc21dc78df552a993b44

@@ -1,15 +1,9 @@
 # All the configuration fields are set with their default value
 
-#[web-server]  # implies that lua_bindings/web_server.rs should be used
+[web-server]  # implies that lua_bindings/web_server.rs should be used
 host = "0.0.0.0:3000"
 
-#[markdown] # https://docs.rs/comrak/newest/comrak/struct.ComrakOptions.html
-ext_header_ids = 1
-
-#[yaml]
-strict = 1 # https://github.com/chyh1990/yaml-rust/issues/102
-
-# ?
+[general]
 init = "lighttouch-base/init.lua"
 theme = "base-theme"
 templates_path = "templates/**/*"  # expected by lib.rs
@@ -20,3 +14,9 @@ log_path = "log/torchbear"
 
 # Can be error, warn, info, debug or trace
 log_level = "trace"
+
+#[markdown] # https://docs.rs/comrak/newest/comrak/struct.ComrakOptions.html
+ext_header_ids = 1
+
+#[yaml]
+strict = 1 # https://github.com/chyh1990/yaml-rust/issues/102

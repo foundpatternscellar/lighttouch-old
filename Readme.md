@@ -10,7 +10,7 @@
 Lighttouch is a framework that makes complex application development simpler.  It does this through broad use of [component-oriented design](https://en.wikipedia.org/wiki/Component-based_software_engineering) intended to offer programmers a well-researched alternative to starting with a blank canvas - "put your code anywhere".
 
 [Code organized](https://en.wikipedia.org/wiki/Structured_programming) this way is:
-- easier to use (to program)
+- easier to program
 - possible to use as a base for [visual programming environments](https://en.wikipedia.org/wiki/Visual_programming_language) 
 - unlimited in its reusability of implementations
 - easier to extend with other developers' plugins

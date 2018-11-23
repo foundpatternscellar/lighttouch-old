@@ -6,7 +6,7 @@ host = "0.0.0.0:3000"
 [general]
 init = "lighttouch-base/init.lua"
 theme = "base-theme"
-site-name = "Lighttouch"
+sitename = "Lighttouch"
 
 #[paths]
 content = "content"

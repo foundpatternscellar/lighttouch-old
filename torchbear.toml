@@ -1,22 +1,24 @@
-# All the configuration fields are set with their default value
+# Torchbear configuration - fields have been set with their default values
 
-[web-server]  # implies that lua_bindings/web_server.rs should be used
+[web-server]
 host = "0.0.0.0:3000"
 
 [general]
 init = "lighttouch-base/init.lua"
 theme = "base-theme"
-templates_path = "templates/**/*"  # expected by lib.rs
+site-name = "Lighttouch"
 
-# package related settings - paths for stuff
+#[paths]
 content = "content"
 log_path = "log/torchbear"
+templates_path = "templates/**/*"  # expected by lib.rs
 
-# Can be error, warn, info, debug or trace
-#log_level = "trace"
+#[log]
+# minimum level to appear: error, warn, info, debug or trace
+log_level = "info"
 
 #[markdown] # https://docs.rs/comrak/newest/comrak/struct.ComrakOptions.html
 ext_header_ids = 1
 
 #[yaml]
-strict = 1 # https://github.com/chyh1990/yaml-rust/issues/102
+# strict = 1 # https://github.com/chyh1990/yaml-rust/issues/102

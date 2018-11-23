@@ -1,0 +1,4 @@
+description: Slideshow
+fields:
+  title:
+    type: string

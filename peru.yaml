@@ -33,4 +33,4 @@ git module base-theme:
   
 git module homepage-package:
   url: https://github.com/foundpatterns/homepage-package
-  rev: c85d556d2eae7d51fb633466d27e35c42d0dbe25
+  rev: df137bac340c4ca07a552c79f7fcab8a44790fd4

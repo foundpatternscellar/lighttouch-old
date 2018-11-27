@@ -7,6 +7,8 @@ imports:
   jadeseal-foundpatterns: packages/jadeseal-foundpatterns
   homepage-package: packages/homepage-package
   base-theme: themes/base-theme
+  send-file-package: packages/send-file-package
+
   
 git module lighttouch-base:
   url: https://github.com/foundpatterns/lighttouch-base.git
@@ -34,3 +36,6 @@ git module base-theme:
 git module homepage-package:
   url: https://github.com/foundpatterns/homepage-package
   rev: f5972955672c9e4466a78bacc9376b1a4b457dd9
+  
+git module send-file-package:
+  url: https://github.com/foundpatterns/send-file-package

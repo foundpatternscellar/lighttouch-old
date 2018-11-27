@@ -14,6 +14,7 @@ slideshow = "c800a360-d198-4a87-877e-b353f7dd0a9d"
 content = "content"
 log_path = "log/torchbear"
 templates_path = "templates/**/*"  # expected by lib.rs
+files_path = "files"
 
 #[log]
 # minimum level to appear: error, warn, info, debug or trace

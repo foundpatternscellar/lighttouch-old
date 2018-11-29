@@ -1,5 +1,0 @@
-description: Message
-fields:
-  title:
-    type: string
-    required: true

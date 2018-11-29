@@ -1,4 +1,0 @@
-description: URL of a profile
-fields:
-  host:
-    type: string

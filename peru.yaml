@@ -13,7 +13,7 @@ imports:
 git module lighttouch-base:
   url: https://github.com/foundpatterns/lighttouch-base.git
   recursive: true
-  rev: 48a8407ec27588b2157a8229763961904871793f
+  rev: a95edd923706ad2f8b36d748b08f69f96fa981be
 
 git module lighttouch-logging:
   url: https://github.com/foundpatterns/lighttouch-logging.git

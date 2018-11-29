@@ -1,8 +1,0 @@
-description: Cryptographic keys of a profile
-fields:
-  kind:
-    type: string
-    values: # Not implemented
-      - sign_public
-      - sign_private
-    required: true

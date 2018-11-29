@@ -1,8 +1,0 @@
-description: Log of a sync to foundpatterns
-fields:
-  previous_sync:
-    type: uuid # Not implemented
-    required: false # The first sync has no previous sync
-  documents: # This is actually an array but there's no syntax for it
-    type: uuid
-    required: true

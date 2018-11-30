@@ -56,9 +56,9 @@ Lighttouch also provides modules for content management, robust logging, syntax 
 ### Installation
 
 Lightouch has 3 dependencies:
-* **[git](https://git-scm.com)** [version control manager](https://en.wikipedia.org/wiki/Version_control)
-* **[peru](https://github.com/buildinspace/peru)** [package manager](https://en.wikipedia.org/wiki/Package_manager)
-* **[torchbear](https://github.com/foundpatterns/torchbear)** [application framework](https://stackoverflow.com/questions/4241919/what-is-meant-by-application-framework)
+* **[torchbear](https://github.com/foundpatterns/torchbear)** (an [application framework](https://stackoverflow.com/questions/4241919/what-is-meant-by-application-framework))
+* **[git](https://git-scm.com)** (a [version control manager](https://en.wikipedia.org/wiki/Version_control))
+* **[peru](https://github.com/buildinspace/peru)** (a [package manager](https://en.wikipedia.org/wiki/Package_manager))
 
 Once these are installed, clone the repo with git, run `peru sync` to install its components, and run it with `torchbear`.  To update, use `git pull` and `peru reup`.
 

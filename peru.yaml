@@ -13,40 +13,30 @@ imports:
 git module lighttouch-base:
   url: https://github.com/foundpatterns/lighttouch-base.git
   recursive: true
-  rev: c76e98c0c95641364520604e3c8c3cb619299650
 
 git module lighttouch-logging:
   url: https://github.com/foundpatterns/lighttouch-logging.git
-  rev: 6c123b5ef42ac049ac611ee5f60d5f4629b1af65
 
 git module lighttouch-keys:
   url: https://github.com/foundpatterns/lighttouch-keys.git
-  rev: 9020e0a26d82f686cdda4bc85cfe736f4603d2dc
   
 git module lighttouch-json-interface:
   url: https://github.com/foundpatterns/lighttouch-json-interface.git
-  rev: 734abec7beda6ac15df81d9692bcc9774ca6d782
   
 git module lighttouch-html-interface:
   url: https://github.com/foundpatterns/lighttouch-html-interface.git
-  rev: 2386a96a7e5fc015699001ade9969118e6b8b672
   
 git module jadeseal-foundpatterns:
   url: https://github.com/foundpatterns/jadeseal-foundpatterns.git
-  rev: be02ee37691c802cab8a0ca1b3c33315ae669527
   
 git module base-theme:
   url: https://github.com/foundpatterns/base-theme
-  rev: 33308d3f41d9d098847d0aac623750231d5a0733
   
 git module homepage-package:
   url: https://github.com/foundpatterns/homepage-package
-  rev: f5972955672c9e4466a78bacc9376b1a4b457dd9
   
 git module send-file-package:
   url: https://github.com/foundpatterns/send-file-package
-  rev: 99bac9e8a003030930f89aff780f57091ce902b6
 
 git module lighttouch-change-management:
   url: https://github.com/foundpatterns/lighttouch-change-management.git
-  rev: 1098cf860e94dc9761763ecfca0f5fb5cf0eb465

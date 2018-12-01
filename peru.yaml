@@ -8,12 +8,11 @@ imports:
   homepage-package: packages/homepage-package
   base-theme: themes/base-theme
   send-file-package: packages/send-file-package
-
+  lighttouch-change-management: packages/lighttouch-change-management
   
 git module lighttouch-base:
   url: https://github.com/foundpatterns/lighttouch-base.git
   recursive: true
-  rev: 7633d35fb754bb3d13ca14ea735896ead423912b
 
 git module lighttouch-logging:
   url: https://github.com/foundpatterns/lighttouch-logging.git
@@ -35,7 +34,9 @@ git module base-theme:
   
 git module homepage-package:
   url: https://github.com/foundpatterns/homepage-package
-  rev: f5972955672c9e4466a78bacc9376b1a4b457dd9
   
 git module send-file-package:
   url: https://github.com/foundpatterns/send-file-package
+
+git module lighttouch-change-management:
+  url: https://github.com/foundpatterns/lighttouch-change-management.git

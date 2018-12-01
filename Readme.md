@@ -11,10 +11,10 @@ Lighttouch is a framework that makes complex application development simpler.  I
 
 [Code organized](https://en.wikipedia.org/wiki/Structured_programming) this way is:
 - easier to program
-- possible to use as a base for [visual programming environments](https://en.wikipedia.org/wiki/Visual_programming_language) 
 - unlimited in its reusability of implementations
 - easier to extend with other developers' plugins
 - possible to socially cross-pollenate diverse and complex applications
+- possible to use as a base for [visual programming environments](https://en.wikipedia.org/wiki/Visual_programming_language) 
 
 Without this, applications tend to:
 - get walled into handling only a single use case
@@ -56,9 +56,9 @@ Lighttouch also provides modules for content management, robust logging, syntax 
 ### Installation
 
 Lightouch has 3 dependencies:
-* **[git](https://git-scm.com)** [version control manager](https://en.wikipedia.org/wiki/Version_control)
-* **[peru](https://github.com/buildinspace/peru)** [package manager](https://en.wikipedia.org/wiki/Package_manager)
-* **[torchbear](https://github.com/foundpatterns/torchbear)** [application framework](https://stackoverflow.com/questions/4241919/what-is-meant-by-application-framework)
+* **[torchbear](https://github.com/foundpatterns/torchbear)** (an [application framework](https://stackoverflow.com/questions/4241919/what-is-meant-by-application-framework))
+* **[git](https://git-scm.com)** (a [version control manager](https://en.wikipedia.org/wiki/Version_control))
+* **[peru](https://github.com/buildinspace/peru)** (a [package manager](https://en.wikipedia.org/wiki/Package_manager))
 
 Once these are installed, clone the repo with git, run `peru sync` to install its components, and run it with `torchbear`.  To update, use `git pull` and `peru reup`.
 

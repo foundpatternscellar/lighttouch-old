@@ -1,4 +1,6 @@
 .peru
+home-store.txt
+
 /lighttouch-base/
 /packages/
 /log/*
@@ -7,11 +9,7 @@
 /themes/
 
 /content/*
-!/content/home/
 !/content/d3562615-c6c9-4a41-8fb9-f39117ed55cd/
-
-/content/home/*
-!/content/home/1cbcba6c-8167-4fc5-8bea-43b1298ddd27
 
 # Example content
 !/content/811332fb-2b80-4e99-950d-3b76f3719e80/

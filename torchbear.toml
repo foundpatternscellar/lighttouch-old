@@ -10,6 +10,9 @@ theme = "base-theme"
 sitename = "Lighttouch"
 slideshow = "c800a360-d198-4a87-877e-b353f7dd0a9d"
 
+user = "admin"
+password = "admin"
+
 #[paths]
 content = "content"
 log_path = "log/torchbear"
@@ -18,7 +21,7 @@ files_path = "files"
 
 #[log]
 # minimum level to appear: error, warn, info, debug or trace
-log_level = "info"
+log_level = "debug"
 
 #[markdown] # https://docs.rs/comrak/newest/comrak/struct.ComrakOptions.html
 ext_header_ids = 1

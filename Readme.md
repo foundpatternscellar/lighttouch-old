@@ -1,8 +1,6 @@
-<p align="center"><img width="100" src="https://i.imgur.com/zwjfmrF.png" alt="lighttouch logo"></p>
+<p align="center"><img width="100" src="https://i.imgur.com/zwjfmrF.png" alt="lighttouch logo"></p><br>This Project is Currently in Stealth Mode.<br>please do not post a news story until v0.1 is released very shortly.<br>thank you.</p>
 
 <p align="center">
-  <a href="https://github.com/foundpatterns/lighttouch/releases"><img src="https://img.shields.io/badge/version-0.9.9-blue.svg" alt="Versioning"></a>
-  <a href="https://github.com/foundpatterns?q=&type=fork&language=lua"><img src="https://requires.io/static/3.5/badges/flat/up-to-date.svg" alt="High-Quality Joke"></a>
   <a href="https://github.com/foundpatterns/lighttouch/issues"><img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=" alt="Contributions Welcome"></a>
   <a href="https://discord.gg/sWCQxT"><img src="https://img.shields.io/badge/chat-on%20discord-7289da.svg" alt="Chat"></a>
 </p>

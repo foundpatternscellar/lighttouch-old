@@ -1,4 +1,4 @@
-<p align="center"><img width="100" src="https://i.imgur.com/zwjfmrF.png" alt="lighttouch logo"></p><br>This Project is Currently in Stealth Mode.<br>please do not post a news story until v0.1 is released very shortly.<br>thank you.</p>
+<p align="center"><img width="100" src="https://i.imgur.com/zwjfmrF.png" alt="lighttouch logo"><br>This Project is Currently in Stealth Mode.<br>please do not post a news story until v0.1 is released very shortly.<br>thank you.</p>
 
 <p align="center">
   <a href="https://github.com/foundpatterns/lighttouch/issues"><img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=" alt="Contributions Welcome"></a>

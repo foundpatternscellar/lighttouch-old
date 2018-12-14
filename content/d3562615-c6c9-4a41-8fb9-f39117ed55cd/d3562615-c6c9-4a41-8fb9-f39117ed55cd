@@ -1,4 +1,4 @@
 ---
-model: profile
-name: foundpatterns
+model = "profile"
+name = "foundpatterns"
 ...

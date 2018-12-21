@@ -14,7 +14,6 @@ git module lighttouch-base:
 
 git module lighttouch-logging:
   url: https://github.com/foundpatterns/lighttouch-logging.git
-  rev: 6c123b5ef42ac049ac611ee5f60d5f4629b1af65
 
 git module lighttouch-json-interface:
   url: https://github.com/foundpatterns/lighttouch-json-interface.git

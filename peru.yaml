@@ -1,6 +1,6 @@
 imports:
   lighttouch-base: lighttouch-base/
-  # lighttouch-logging: packages/lighttouch-logging
+  lighttouch-logging: packages/lighttouch-logging
   lighttouch-json-interface: packages/lighttouch-json-interface
   lighttouch-html-interface: packages/lighttouch-html-interface
   homepage-package: packages/homepage-package
@@ -12,9 +12,9 @@ git module lighttouch-base:
   url: https://github.com/foundpatterns/lighttouch-base.git
   recursive: true
 
-# git module lighttouch-logging:
-#   url: https://github.com/foundpatterns/lighttouch-logging.git
-#   rev: 6c123b5ef42ac049ac611ee5f60d5f4629b1af65
+git module lighttouch-logging:
+  url: https://github.com/foundpatterns/lighttouch-logging.git
+  rev: 6c123b5ef42ac049ac611ee5f60d5f4629b1af65
 
 git module lighttouch-json-interface:
   url: https://github.com/foundpatterns/lighttouch-json-interface.git

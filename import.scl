@@ -1,5 +1,3 @@
-include = "third-party.scl"
-
 imports = {
   lighttouch-base = "lighttouch-base/",
   lighttouch-logging = "packages/lighttouch-logging",
@@ -12,7 +10,8 @@ imports = {
 }
 
 lighttouch-base = {
-	url = "https://github.com/foundpatterns/lighttouch-base"
+	url = "https://github.com/foundpatterns/lighttouch-base",
+    recursive = true,
 }
 
 lighttouch-logging = {

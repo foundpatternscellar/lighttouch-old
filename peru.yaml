@@ -8,6 +8,10 @@ imports:
   send-file-package: packages/send-file-package
   lighttouch-change-management: packages/lighttouch-change-management
 
+  multi-component: themes/multi-component
+  component-holder: themes/component-holder
+  component-sitter: themes/component-sitter
+
 git module lighttouch-base:
   url: https://github.com/foundpatterns/lighttouch-base.git
   recursive: true
@@ -32,3 +36,10 @@ git module send-file-package:
 
 git module lighttouch-change-management:
   url: https://github.com/foundpatterns/lighttouch-change-management.git
+
+git module multi-component:
+  url: https://github.com/LuisReyes98/multi-component-example
+git module component-holder:
+  url: https://github.com/LuisReyes98/component-holder
+git module component-sitter:
+  url: https://github.com/LuisReyes98/component-sitter
